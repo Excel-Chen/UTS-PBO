@@ -71,12 +71,14 @@ public class kartuhasilstudi {
         System.out.println("Total SKS       = " + totalSKS());
         System.out.println();
         System.out.println("Nilai : ");
-        System.out.println("========");
+        ystem.out.println("==============================================================================");
         System.out.println("No.\t" +  "Kode MataKuliah\t\t" + "Nama MataKuliah\t\t" + "Sks\t\t" + "Nilai");
+        System.out.println("==============================================================================");
         for(nilaistudi hasil : ListNilaiStudi){
             System.out.print(count);
             System.out.println(hasil.toString());
             count++;
         }
+        System.out.println("==============================================================================");
     }
 }
